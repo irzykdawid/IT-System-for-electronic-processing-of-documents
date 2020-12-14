@@ -1,0 +1,34 @@
+# IT-System-for-electronic-processing-of-documents
+Engineer's Thesis 
+
+Autor: Dawid Irzyk 1K411/PO
+IT System for electronic processing of documents.
+
+Instrukcja Instalacji:
+
+1) Proszę utworzyć bazę danych a następnie zaimportować do niej plik xfiles_baza.sql.
+2) Następnie należy wprowadzić dane do połączenia się z bazą danych MySQL
+   - plik conn.php w inc/conn.php
+   - plik conn.php w admin/inc/conn.php
+
+3) Aby system mógł poprawnie udostępniać pliki należy w pliku
+   - inc/share.php 
+
+$mail->From = "[email nadawcy]";
+$mail->AddReplyTo('[email nadawcy]', '[email nadawcy]');
+$mail->Host = "[host]";
+$mail->Mailer = "smtp";
+$mail->SMTPAuth = true;
+$mail->Username = "[adres email]";
+$mail->Password = "[hasło]";
+$mail->Port = 587; // port do serwera SMTP domyślnie to 587
+
+* Dane wprowadzamy bez znaków "[" i "]"
+
+W 61 linijce możemy zmienić nasze logo, i później w else jeszcze raz na nasze logo (domyślnie ustawione logo systemu xfiles).
+
+4) Aby poprawnie pobierać udostępnione pliki należy w pliku
+   - inc/get.php 
+
+w 20 linijce zmienić readfile("https://xfiles.pl/files/".$employee_id."/".$filename); na nasz adres internetowy z dopiskiem /files/ - to katalog na pliki.
+w 25 linijce zmienić header( "refresh:2;url=https://xfiles.pl" ); na główny adres dostępowy dla naszej witryny.
