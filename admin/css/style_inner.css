@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900&display=swap');
+
+body {
+    font-family: 'Muli', sans-serif;
+    background: #f7f8fc;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "Muli";
+    color: #2f394f;
+    font-weight: bold;
+    padding-bottom: 32px;
+}
+
+p {
+    font-family: 'Muli', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    margin-bottom: 0px;
+    color: #999;
+}
+
+b {
+    font-weight: 700;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-weight: normal;
+}
+
+.btn {
+    border-radius: 3px;
+}
+
+.kokpit-margin {
+    margin-bottom: 30px !important;
+}
+
+.navbar {
+    padding: 0px 0px;
+    background: #fff !important;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 0px 4px 10px rgba(219, 219, 219, 0.5);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 300px;
+    max-width: 325px;
+    background-color: #000638;
+    color: #fff;
+    transition: all 0.3s;
+    z-index: 999;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 29px;
+    background: #000638;
+}
+
+#sidebar ul.components {
+    padding: 0px 0;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #959aac;
+    background: #161b4a;
+}
+
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #161b4a;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #161b4a;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #161b4a !important;
+    color: #fff !important;
+}
+
+#content {
+    width: 100%;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+#inner {
+    padding: 0px 50px 50px 50px;
+}
+
+.icon-padding {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+a.nav-link {
+    font-size: 18px;
+    font-family: "Muli";
+    color: #62697c;
+    font-weight: 700;
+}
+
+.mini-title-page {
+    font-size: 18px;
+    font-family: "Muli";
+    color: rgb(111, 123, 148);
+    position: absolute;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+li.nav-item {
+    border-right: 1px #e6e6e6 solid;
+    padding: 17px 29px 15px 29px;
+}
+
+li.nav-item:last-child {
+    border-right: 0px #e6e6e6 solid;
+    padding: 14px 15px 26px 29px;
+    line-height: 0.8;
+}
+
+i.normal {
+    font-weight: 500;
+    font-style: normal;
+}
+
+a.settings {
+    font-size: 12px;
+    font-family: "Muli";
+    color: #62697c;
+    font-weight: bold;
+    line-height: 0.1;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.item_box {
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(219, 219, 219, 0.5);
+    padding: 25px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    display: inline-block;
+}
+
+h2.box {
+    font-size: 24px;
+    font-family: "Muli";
+    color: rgb(98, 105, 124);
+    font-weight: bold;
+    line-height: 1.0;
+}
+
+p.icon {
+    font-size: 82px;
+    color: #dbdbdb;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.border-r {
+    border-right: 1px #e6e6e6 solid;
+}
+
+.green {
+    font-size: 18px;
+    font-family: "Muli";
+    color: rgb(53, 133, 7);
+    font-weight: bold;
+}
+
+.grey {
+    color: #62697c;
+}
+
+ul.item_box {
+    list-style-type: none;
+}
+
+.btn-blue {
+    color: #000638;
+    background-color: #fff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #000638;
+    border-color: #000638;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: rgb(53, 133, 7);
+    border-color: rgb(53, 133, 7);
+}
+
+textarea {
+    height: 150px;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #000638;
+    border-color: #000638;
+}
+
+
+@media (max-width: 992px) {
+    #sidebar {
+        margin-left: -300px;
+    }
+
+    .navbar-expand-lg > .container,
+    .navbar-expand-lg > .container-fluid {
+        background: #000638;
+        padding: 5px;
+    }
+
+    #sidebar.active {
+        margin-left: 0;
+    }
+
+    #sidebarCollapse span {
+        display: none;
+    }
+
+    .border-r {
+        border-right: 0px #e6e6e6 solid;
+    }
+}
+
+.btn-primary:hover {
+  background: #000638;
+}
+

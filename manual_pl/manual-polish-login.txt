@@ -1,0 +1,19 @@
+Autor: Dawid Irzyk 1K411/PO
+IT System for electronic processing of documents.
+
+Dane do logowania:
+Wchodzimy na adres naszej witryny internetowej z dopiskiem /admin
+
+Przykład:
+http://domena.pl/admin
+- jeżeli nasza domena korzysta z SSL proszę wprowadzić adres z przedrostkiem https://domena.pl/admin
+
+domyślne dane administratora:
+login: admin
+hasło: admin
+
+Hasło po zalogowaniu można zmienić w Panelu klienta.
+
+Użytkowników tworzymy po wejściu do Panelu użytkownika.
+
+Każdy stworzony użytkownik może się zalogować swoim numerem użytkownika, po wejściu na Twoją główną domenę, gdzie przechowujesz skrypt.

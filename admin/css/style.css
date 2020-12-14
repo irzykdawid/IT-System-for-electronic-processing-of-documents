@@ -1,0 +1,100 @@
+ @import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900&display=swap');
+
+ html,
+ body {
+     font-family: "Muli";
+     height: 100%;
+ }
+
+ body {
+     display: -ms-flexbox;
+     display: -webkit-box;
+     display: flex;
+     -ms-flex-align: center;
+     -ms-flex-pack: center;
+     -webkit-box-align: center;
+     align-items: center;
+     -webkit-box-pack: center;
+     justify-content: center;
+     padding-top: 40px;
+     padding-bottom: 40px;
+     background-color: #fff;
+ }
+
+ h2 {
+     font-size: 22px;
+     line-height: 0.4;
+ }
+
+ h3 {
+     font-size: 14px;
+     line-height: 0.4;
+ }
+
+ .ptf {
+     padding-top: 2rem !important;
+ }
+
+ .form-signin {
+     width: 100%;
+     max-width: 330px;
+     padding: 15px;
+ }
+
+ .form-signin .checkbox {
+     font-weight: 400;
+ }
+
+ .form-signin .form-control {
+     position: relative;
+     box-sizing: border-box;
+     height: auto;
+     padding: 10px;
+     font-size: 16px;
+ }
+
+ .form-signin .form-control:focus {
+     z-index: 2;
+ }
+
+ .form-signin input[type="email"] {
+     margin-bottom: -1px;
+     border-bottom-right-radius: 0;
+     border-bottom-left-radius: 0;
+ }
+
+ .form-signin input[type="password"] {
+     margin-bottom: 10px;
+     border-top-left-radius: 0;
+     border-top-right-radius: 0;
+ }
+
+ .dark-button {
+     background: #000638;
+     color: #fff;
+     font-size: 16px;
+ }
+
+ .dark-button:hover {
+     background: rgb(53, 133, 7);
+     color: #fff;
+     font-size: 16px;
+ }
+
+ footer {
+     background-color: #f7f8fc;
+     width: 100%;
+     position: fixed;
+     bottom: 0;
+	 left: 0px;
+     color: #62697c;
+ }
+
+ .text-padding-login {
+     padding-top: 40px;
+ }
+
+ .disable {
+     opacity: 0.4 !important;
+     display: none;
+ }
