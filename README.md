@@ -4,6 +4,8 @@ Engineer's Thesis
 Autor: Dawid Irzyk 1K411/PO
 IT System for electronic processing of documents.
 
+PHP 7.4 / MySQL / Apache 2.4
+
 Instrukcja Instalacji:
 
 1) Proszę utworzyć bazę danych a następnie zaimportować do niej plik xfiles_baza.sql.
